@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>LOC Search</h1>
+    <form id="search-form" action="search.html">
+        <input type="text" name="q" id="search-term" placeholder="search term"/>
+        <select name="format" id="format">
+            <option value="audio">Audio</option>
+            <option value="maps">Maps</option>
+            <option value="photos">Photos</option>
+            <option value="manuscripts">Manuscripts</option>
+            <option value="newspapers">Newspapers</option>
+            <option value="film-and-videos">Film & Video</option>
+            <option value="notated-music">Music</option>
+            <option value="websites">Websites</option>
+        </select>
+        <button id="submit-button">Submit</button>
+    </form>
+    <h3>Results for <span id="results-term"></span> as <span id="results-format"></span> format</h3>
+    <div id="results">
+    </div>
+   >
+</body>
+</html>
